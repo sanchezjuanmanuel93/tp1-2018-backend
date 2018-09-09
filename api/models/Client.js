@@ -8,6 +8,9 @@
 module.exports = {
 
   attributes: {
+    name: { type: 'string', required: true },
+    lastName: { type: 'string', required: true },
+    documentNumber: { type: 'string', required: true },
 
     //  ╔═╗╦═╗╦╔╦╗╦╔╦╗╦╦  ╦╔═╗╔═╗
     //  ╠═╝╠╦╝║║║║║ ║ ║╚╗╔╝║╣ ╚═╗

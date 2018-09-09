@@ -6,7 +6,15 @@
  */
 
 module.exports = {
-  
+    // 
+    // _config: {
+    //     actions: false,
+    //     shortcuts: false,
+    //     rest: false
+    //   },
 
+    hello: async function (req, res) {
+        return res.send('Hi there! ' + req.param('name'));
+    }
 };
 
