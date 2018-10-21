@@ -12,12 +12,9 @@ module.exports = {
       type: 'string',
       required: true
     },
-
     teams: {
       collection: 'team'
     }
-
-
 
   },
 

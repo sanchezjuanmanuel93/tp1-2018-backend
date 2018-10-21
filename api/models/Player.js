@@ -12,10 +12,6 @@ module.exports = {
       type: 'string',
       required: true
     },
-    lastName: {
-      type: 'string',
-      required: true
-    },
     team: {
       model: 'team'
     }
