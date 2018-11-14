@@ -14,6 +14,9 @@ module.exports = {
     },
     teams: {
       collection: 'team'
+    },
+    matches: {
+      collection: 'match'
     }
 
   },
