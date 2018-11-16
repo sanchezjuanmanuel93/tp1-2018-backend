@@ -8,7 +8,7 @@
 module.exports = {
 
   attributes: {
-    code: {
+    code: { // for FIFA api
       type: 'string',
       required: true,
       unique: true
